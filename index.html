@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+            border:1px solid black;
+        }
+    </style>
+    <title>Pagina de futbol</title>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mouse</td>
+                <td>$30000</td>
+            </tr>
+            <tr>
+                <td>Silla</td>
+                <td>$200000</td>
+            </tr>
+            <tr>
+                <td>Silla gamer con luces rgb pa mas fps</td>
+                <td>$200000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: $230000</td>
+        </tfoot>
+    </table>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+    </ul>
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-alpha ;"> sub elemento 1</li>
+                <li style="list-style-type:lower-alpha ;"> sub elemento 2</li>
+                <li style="list-style-type:lower-alpha ;"> sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+    
+
+    <form action="/formulario" method="GET">
+        <label for="correo">Ingrese correo</label>
+        <input value="abc@abc.com" type="email" id="correo" name="Correo" placeholder="Correo"/>
+        <br>
+        <label for="nombre">Ingrese nombre</label>
+        <input value="Juanito" type="text" id="nombre" name="Nombre" placeholder="Nombre"/>
+        <br>
+        <label for="comentario" >Ingrese comentario</label>
+        <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario">Comentario</textarea>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+    </form>
+    <h1>Bienvenidos!</h1>
+    <h2>Aqui podras encontrar informacion sobre futbolistas y paises del mundial de catar 2022</h2>
+    <p>El mundial de catar esta siendo uno de los mejores en cuanto a revelacion de paises y selecciones "de poco futbol"</p>
+    <p>Analizaremos a los paises en primer lugar</p>
+    <hr>
+    <h1>Argentina</h1>
+    <p>Pais sudamericano</p>
+    <img src="img/messi.jpeg" width="400"/>
+    <p>Tienen como referente al mejor jugador de la historia, Lionel Messi.</p>
+    <p>
+        Su actual club es el <a target="_blank" style="color: blue;" href="https://es.wikipedia.org/wiki/Paris_Saint-Germain_Football_Club"> Paris Saint Germain</a>
+        de francia <br>
+    </p>
+    <a target="_blank" href="blog.html">Ir a Lionel Messi</a>
+</body>
+</html>
